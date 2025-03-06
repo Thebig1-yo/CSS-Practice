@@ -1,0 +1,29 @@
+body {
+    padding: 5% 10%;
+    font-size: 1.5rem;
+    font-family: fantasy;
+}
+
+ol {
+    list-style-type: lower-greek;
+    padding: 0;
+}
+
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: red;
+    line-height: 1.6;
+    list-style-image: url("");
+
+}
+
+ul li:nth-child(odd) {
+    color: blue;
+}
+ul ::marker {
+    color: black;
+    font-family: sans-serif;
+    content: "Only $5 >>>  ";
+}

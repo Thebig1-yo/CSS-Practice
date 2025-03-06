@@ -1,0 +1,29 @@
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover , a:focus {
+    color: gold;
+    opacity: 0.9;
+}
+
+
+a:active {
+    color: red;
+}
